@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::map<int, Entity> byId =
+	std::map<int, Entity> byId 
 	{
 		{7, {7, "orc", 30}},
 		{2, {2, "bat", 8}},
@@ -22,7 +22,7 @@ int main()
 			isFound = result->second.name;
 		else
 			isFound = "(not found)";
-		std::cout << "id " << std::to_string(targetId[i])
+		std::cout << "id " << targetId[i]
 			<< ": " << isFound << std::endl;
 	}
 	std::cout << "-- entities by id--" << std::endl;		// <- entities by id

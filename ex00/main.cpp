@@ -27,7 +27,7 @@ int main()
 		else
 		{
 			std::cout << std::to_string(j->id) << " "
-				<< j->name << " (hp " << std::to_string(j->hp)
+				<< j->name << " (hp " << j->hp
 				<< ")" << std::endl;
 			j++;
 		}
